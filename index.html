@@ -5,9 +5,9 @@ var canv = document.getElementById("ctx");
 var ctx = canv.getContext("2d");
 var x = 0;
 setInterval(variable, 20);
-  ctx.fillRect(x,y,100,100);
+  ctx.fillRect(10,y,100,100);
   variable();
-  ctx.fillRect(x,y,100,100);
+  ctx.fillRect(10,y,100,100);
   function variable(){
     ctx.clearRect(0,0,700,500);
   x++;
